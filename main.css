@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #fafafa;
+}
+
+.app {
+  max-width: 420px;
+  margin: auto;
+  padding: 16px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+.card-stack {
+  position: relative;
+  width: 100%;
+  height: 420px;
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #eee;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  touch-action: none;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.summary {
+  margin-top: 24px;
+}
+
+.hidden {
+  display: none;
+}
+
+.liked-cats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.liked-cats img {
+  width: 100%;
+  border-radius: 12px;
+}
