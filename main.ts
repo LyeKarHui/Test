@@ -6,14 +6,14 @@ interface Cat {
 const cats: Cat[] = [
   { id: 1, image: "Images/cat1.jpg" },
   { id: 2, image: "Images/cat2.jpg" },
-  { id: 3, image: "images/cat3.jpg" },
-  { id: 4, image: "images/cat4.jpg" },
-  { id: 5, image: "images/cat5.jpg" },
-  { id: 6, image: "images/cat6.jpg" },
-  { id: 7, image: "images/cat7.jpg" },
-  { id: 8, image: "images/cat8.jpg" },
-  { id: 9, image: "images/cat9.jpg" },
-  { id: 10, image: "images/cat10.jpg" },
+  // { id: 3, image: "images/cat3.jpg" },
+  // { id: 4, image: "images/cat4.jpg" },
+  // { id: 5, image: "images/cat5.jpg" },
+  // { id: 6, image: "images/cat6.jpg" },
+  // { id: 7, image: "images/cat7.jpg" },
+  // { id: 8, image: "images/cat8.jpg" },
+  // { id: 9, image: "images/cat9.jpg" },
+  // { id: 10, image: "images/cat10.jpg" }
 ];
 
 const stack = document.getElementById("card-stack")!;
